@@ -9,10 +9,10 @@ spring-cloud 微服务组件demo
 <td>eureka-server</td>  <td>服务发现与注册中心</td>  <td>7070</td>
 </tr>
 <tr>
-<td>ribbon</td>  <td>负载均衡器</td>  <td>7071</td>
+<td>ribbon</td>  <td>客户端负载均衡器，另一个是服务端负载均衡器</td>  <td>7071</td>
 </tr>
 <tr>
-<td>config-server</td>  <td>配置管理中心</td>  <td>7072</td>
+<td>config-server</td>  <td>配置管理中心，可结合git/svn使用</td>  <td>7072</td>
 </tr>
 <tr>
 <td>zuul</td>  <td>动态路由器</td>  <td>7073</td>
@@ -33,7 +33,7 @@ spring-cloud 微服务组件demo
 <td>feign</td>  <td>声明式、模板化的HTTP客户端，可用来做负载均衡，较轻量</td>  <td>7078</td>
 </tr>
 <tr>
-<td>hystrix-feign</td>  <td>feign的容错测试</td>  <td>7079</td>
+<td>hystrix-feign</td>  <td>feign的容错测试</td>  <td>7079</td>
 </tr>
 <tr>
 <td>hystrix-dashboard</td>  <td>hystrix可视化监控台</td>  <td>7080</td>
