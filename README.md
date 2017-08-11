@@ -48,3 +48,8 @@ spring-cloud 微服务组件demo
 <td>service-admin</td>  <td>spring boot admin监控台</td>  <td>7088</td>
 </tr>
 </tbody></table>
+
+hystrix-feign及hystrix-ribbon都是服务容错测试。hystrix-dashboard是容错监控平台，启动hystrix-dashborad后，输入对应的址，即可监控相应服务的容错监控页面。
+比如http://localhost:7077/hystrix.stream或http://localhost:7079/hystrix.stream，进入monitor stream页面，打开对应的监控画面。
+
+但之上均是对单一服务的监控，要针对所有的有容错服务进行监控，要输入turbine的stream地址。如localhost:7081/turbine.stream
